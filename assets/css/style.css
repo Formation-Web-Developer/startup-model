@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf supports variations'),
+         url('../fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+}
+
+@font-face{
+    font-family: 'Raleway-Italic';
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('ttf supports variations'),
+        url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+.btn-light{
+    background-color: #dddcdc;
+    color: black;
+}
+
+.btn-light-trans{
+    background-color: #eeeeeecb;
+    color: black;
+}
+
+.bg-header{
+    background: url('../img/mac.jpg') center / cover no-repeat;
+    height: 35rem;
+}
+
+.font-size-h{
+    font-size: .5rem;
+}
+
+.font-size-hh{
+    font-size: .75rem;
+}
+
+.font-size-1{
+    font-size: 1rem;
+}
+
+.font-size-1h{
+    font-size: 1.5rem;
+}
+
+.font-size-2{
+    font-size: 2rem;
+}
+
+.font-size-2h{
+    font-size: 2.5rem;
+}
+
+.font-size-3{
+    font-size: 3rem;
+}
